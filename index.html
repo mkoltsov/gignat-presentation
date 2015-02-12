@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-	<html class="decks fullscreen loaded ua-phantomjs reveal-viewport theme-font-montserrat theme-color-white-blue">
+	<html class="decks export loaded ua-phantomjs reveal-viewport theme-font-montserrat theme-color-white-blue">
 	<head>
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<meta charset="utf-8">
@@ -104,7 +104,6 @@ unzip gignat/src/main/webapp/bower_components/bower_components.tar.gz</code></pr
 	<li>Jackson for JSON mashalling/demarshalling</li>
 	<li>Jcabi logger on top of logback for logging</li>
 	<li>HSQLDB to store the data,  JDBCTemplates to get the data</li>
-	<li>Groovy/Spock for unit-testing purposes</li>
 </ul>
 </div>
 </div></section><section><div class="sl-block" data-block-type="text" style="width: 937px; left: 23px; top: 15px; height: auto;" data-block-id="5dfd8c7703869d1a819fb174d97f296a"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="text-align: left;">
@@ -192,19 +191,88 @@ bower_components</code></pre></div></div>
 <div class="sl-block" data-block-type="text" style="width: 410px; left: 499px; top: 106px; height: auto;" data-block-id="97224ca610f34f7f542733a4e0e64ccd"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="text-align: left; z-index: 13; font-size: 80%;">
 <h2 style="text-align: center;">Frontend</h2>
 </div></div>
-<div class="sl-block" data-block-type="text" style="width: 410px; left: 499px; top: 200px; height: auto;" data-block-id="6ef6f805bad5114442ab4c877bf7da2c"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin urna odio, aliquam vulputate faucibus id, elementum lobortis felis. Mauris urna dolor, placerat ac sagittis quis." style="text-align: left; z-index: 14;"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin urna odio, aliquam vulputate faucibus id, elementum lobortis felis. Mauris urna dolor, placerat ac sagittis quis.</p></div></div>
+<div class="sl-block" data-block-type="text" style="width: 410px; left: 499px; top: 200px; height: auto;" data-block-id="6ef6f805bad5114442ab4c877bf7da2c"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin urna odio, aliquam vulputate faucibus id, elementum lobortis felis. Mauris urna dolor, placerat ac sagittis quis." style="text-align: left; z-index: 14;">
+<p>Configuration of JSHint(static analysis), Bower(frontend dependency management), Grunt(build), NPM(build pipeline dependency management) - already described</p>
+
+<p>Ui-router configuration is in the app.js</p>
+
+<p>Angular.JS application starts when all the dependencies from index.html are resolved</p>
+</div></div>
 <div class="sl-block" data-block-type="text" style="width: 960px; left: 0px; top: 11px; height: auto;" data-block-id="eb87785000001baff55bbf7dd9dd49af"><div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="text-align: left; z-index: 15;">
 <h2 style="text-align: center;">What you might configure</h2>
 </div></div>
 <div class="sl-block" data-block-type="text" style="width: 410px; left: 49px; top: 364px; height: auto;" data-block-id="d6ffcb8cea221937100184f86a0785d9"><div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin urna odio, aliquam vulputate faucibus id, elementum lobortis felis. Mauris urna dolor, placerat ac sagittis quis." style="text-align: left; z-index: 16;">
 <p>Pom file is also very straightforward</p>
-</div></div></section><section></section>
+</div></div></section><section><div class="sl-block" data-block-type="text" style="width: 410px; left: 49px; top: 70px; height: auto;" data-block-id="4f9dfe189b1d427d7dbebecbae61345e">
+    <div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="text-align: left; z-index: 11; font-size: 80%;">
+        <h2 style="text-align: center;">Backend</h2>
+    </div>
+</div>
+<div class="sl-block" data-block-type="text" style="width: 410px; left: 6px; top: 129px; height: auto;" data-block-id="a87db50c6ad68b132670de42d6275939">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin urna odio, aliquam vulputate faucibus id, elementum lobortis felis. Mauris urna dolor, placerat ac sagittis quis." style="text-align: left; z-index: 12;">
+        <p>If you have Java &amp; Maven you are good to go. No additional steps needed.</p>
+    </div>
+</div>
+<div class="sl-block" data-block-type="text" style="width: 410px; left: 504px; top: 70px; height: auto;" data-block-id="9b467c0a147cba034002d8bb634abc03">
+    <div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="text-align: left; z-index: 13; font-size: 80%;">
+        <h2 style="text-align: center;">Frontend</h2>
+    </div>
+</div>
+<div class="sl-block" data-block-type="text" style="width: 550px; left: 410px; top: 115px; height: auto;" data-block-id="8acf1af811d045eb0478c0d172f94953">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin urna odio, aliquam vulputate faucibus id, elementum lobortis felis. Mauris urna dolor, placerat ac sagittis quis." style="text-align: left; z-index: 14;">
+<ul>
+	<li>Install git &amp; clone repository, bypass proxy for a future usage of Bower</li>
+	<li>Install Node.js(if you're not on Windows, install NPM) &amp; bypass proxy for npm</li>
+	<li> </li>
+	<li> </li>
+	<li>if bower has failed, see 3rd slide</li>
+	<li> </li>
+	<li>If something went wrong try to reinstall npm dependencies</li>
+	<li>                    , grunt will run the build pipeline and refresh your browser after every chage you've made               </li>
+</ul>
+</div>
+</div>
+<div class="sl-block" data-block-type="text" style="width: 960px; left: 0px; top: 11px; height: auto;" data-block-id="82ef64b2c01dc85f28794164a347d226">
+    <div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="text-align: left; z-index: 15;">
+        <h2 style="text-align:center">How to start development</h2>
+    </div>
+</div>
+<div class="sl-block" data-block-type="code" style="min-width: 30px; min-height: 30px; width: 229px; height: 30px; left: 456px; top: 320px;" data-block-id="75643aa09c7225f84007c3734c8d5f9d"><div class="sl-block-content" style="z-index: 16;"><pre><code>cd webapp &amp; npm install</code></pre></div></div>
+<div class="sl-block" data-block-type="code" style="min-width: 30px; min-height: 30px; width: 349px; height: 30px; left: 456px; top: 358px;" data-block-id="7b54e0d9870dcaafbc618902231458ba"><div class="sl-block-content" style="z-index: 17;"><pre><code>npm install -g bower &amp;&amp; bower install</code></pre></div></div>
+<div class="sl-block" data-block-type="code" style="min-width: 30px; min-height: 30px; width: 315px; height: 30px; left: 456px; top: 432px;" data-block-id="a4e9d6e9c4a15468e65c43573d76389a"><div class="sl-block-content" style="z-index: 18;"><pre><code>npm install -g grunt-cli &amp;&amp; grunt</code></pre></div></div>
+<div class="sl-block" data-block-type="image" style="min-width: 30px; min-height: 30px; width: 160px; height: 49px; left: 454px; top: 545px;" data-block-id="ab865896bb6ffdbad73c7203e507ce59"><div class="sl-block-content" style="z-index: 19;"><img style="visibility: visible;" data-natural-width="160" data-natural-height="49" data-src="https://s3.amazonaws.com/media-p.slid.es/uploads/intimatik/images/1069286/Untitled.png"></div></div></section><section><div class="sl-block" data-block-type="text" style="width: 410px; left: 49px; top: 70px; height: auto;" data-block-id="7e909960424267227bbd3b8faf1f64fa">
+    <div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="text-align: left; z-index: 11; font-size: 80%;">
+<h2 style="text-align:center">1</h2>
+</div>
+</div>
+<div class="sl-block" data-block-type="text" style="width: 410px; left: 6px; top: 129px; height: auto;" data-block-id="9119634fa7e6bb144b5ef9c9eab8cfc3">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin urna odio, aliquam vulputate faucibus id, elementum lobortis felis. Mauris urna dolor, placerat ac sagittis quis." style="text-align: left; z-index: 12;">
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin urna odio, aliquam vulputate faucibus id, elementum lobortis felis. Mauris urna dolor, placerat ac sagittis quis.</p>
+</div>
+</div>
+<div class="sl-block" data-block-type="text" style="width: 410px; left: 504px; top: 70px; height: auto;" data-block-id="abf995e347e8677fba3345f39d56ad5e">
+    <div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="text-align: left; z-index: 13; font-size: 80%;">
+<h2 style="text-align:center">2</h2>
+</div>
+</div>
+<div class="sl-block" data-block-type="text" style="width: 550px; left: 410px; top: 115px; height: auto;" data-block-id="21c8b863e7a5d8b7511ebf03c5208179">
+    <div class="sl-block-content" data-placeholder-tag="p" data-placeholder-text="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin urna odio, aliquam vulputate faucibus id, elementum lobortis felis. Mauris urna dolor, placerat ac sagittis quis." style="text-align: left; z-index: 14;">
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin urna odio, aliquam vulputate faucibus id, elementum lobortis felis. Mauris urna dolor, placerat ac sagittis quis.</p>
+</div>
+</div>
+<div class="sl-block" data-block-type="text" style="width: 960px; left: 0px; top: 11px; height: auto;" data-block-id="4a4c88a121e5bfea6e1282264168c155">
+    <div class="sl-block-content" data-placeholder-tag="h2" data-placeholder-text="Title Text" style="text-align: left; z-index: 15;">
+<h2 style="text-align:center">How to visualize tabular data</h2>
+</div>
+</div>
+</section>
 			</div>
 		</div>
 
+
 		
 <script>
-	var SLConfig = {"current_user":{"id":134212,"username":"intimatik","name":"Intimatik","email":"intimatik@gmail.com","description":null,"thumbnail_url":"https://lh6.googleusercontent.com/-TjylVdinkJw/AAAAAAAAAAI/AAAAAAAAElQ/rHnadvHHU5s/photo.jpg","pro":false,"enterprise":false,"enterprise_manager":false,"notify_on_receipt":false,"billing_address":null,"editor_tutorial_completed":true,"settings":{"id":94829,"present_controls":true,"present_upsizing":true,"editor_grid":true,"editor_snap":true,"developer_mode":true},"registered":true},"deck":{"id":343554,"slug":"deck-1","title":"deck","description":"","visibility":"all","published_at":"2015-02-10T09:31:13.528Z","sanitize_messages":null,"thumbnail_url":"https://s3.amazonaws.com/media-p.slid.es/thumbnails/secure/62ac23/decks.jpg","view_count":0,"user":{"id":134212,"username":"intimatik","name":"Intimatik","email":"intimatik@gmail.com","description":null,"thumbnail_url":"https://lh6.googleusercontent.com/-TjylVdinkJw/AAAAAAAAAAI/AAAAAAAAElQ/rHnadvHHU5s/photo.jpg","pro":false,"enterprise":false,"enterprise_manager":false,"notify_on_receipt":false,"billing_address":null,"editor_tutorial_completed":true,"settings":{"id":94829,"present_controls":true,"present_upsizing":true,"editor_grid":true,"editor_snap":true,"developer_mode":true},"registered":true},"background_transition":"slide","transition":"slide","theme_id":null,"theme_font":"montserrat","theme_color":"white-blue","auto_slide_interval":0,"comments_enabled":true,"forking_enabled":true,"rolling_links":false,"center":false,"should_loop":false,"rtl":false,"version":2,"access_token":"dVN95h3wPPJ3wfLm2jmqnJH5x9Ar","notes":{}}};
+	var SLConfig = {"current_user":{"id":134212,"username":"intimatik","name":"Intimatik","email":"intimatik@gmail.com","description":null,"thumbnail_url":"https://lh6.googleusercontent.com/-TjylVdinkJw/AAAAAAAAAAI/AAAAAAAAElQ/rHnadvHHU5s/photo.jpg","pro":false,"enterprise":false,"enterprise_manager":false,"notify_on_receipt":false,"billing_address":null,"editor_tutorial_completed":true,"settings":{"id":94829,"present_controls":true,"present_upsizing":true,"editor_grid":true,"editor_snap":true,"developer_mode":true},"registered":true},"deck":{"id":343554,"slug":"deck-1","title":"deck","description":"","visibility":"all","published_at":"2015-02-10T09:31:13.528Z","sanitize_messages":null,"thumbnail_url":"https://s3.amazonaws.com/media-p.slid.es/thumbnails/secure/62ac23/decks.jpg","view_count":1,"user":{"id":134212,"username":"intimatik","name":"Intimatik","email":"intimatik@gmail.com","description":null,"thumbnail_url":"https://lh6.googleusercontent.com/-TjylVdinkJw/AAAAAAAAAAI/AAAAAAAAElQ/rHnadvHHU5s/photo.jpg","pro":false,"enterprise":false,"enterprise_manager":false,"notify_on_receipt":false,"billing_address":null,"editor_tutorial_completed":true,"settings":{"id":94829,"present_controls":true,"present_upsizing":true,"editor_grid":true,"editor_snap":true,"developer_mode":true},"registered":true},"background_transition":"slide","transition":"slide","theme_id":null,"theme_font":"montserrat","theme_color":"white-blue","auto_slide_interval":0,"comments_enabled":true,"forking_enabled":true,"rolling_links":false,"center":false,"should_loop":false,"rtl":false,"version":2,"access_token":"dVN95h3wPPJ3wfLm2jmqnJH5x9Ar","notes":{}}};
 </script>
 
 		<script>
